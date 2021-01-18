@@ -3,7 +3,8 @@
 
 # 13.1 create-s3-static-website-lab
 
-**Step 1.AWS Management Console>All Services>S3>Create Bucket**
+**Step 1.Goto AWS Management Console>All Services>S3>Create Bucket**
+Provide the following details-
 - Provide globally unique Bucket name - "static-website-example"
 - Region - Asia Pacific(Mumbai) ap-south-1
 - Block all public access - uncheck this
@@ -11,11 +12,13 @@
 - Give acknowledgement for becoming public 
 - Leave other things default
 
-Click on Create Bucket.
+Click on Create Bucket
 
 **Step 2.Bucket "static-website-example"  has been created successfully**
 
 **Step 3.Goto Buckets>static-website-example>Permissions>Bucket Policy>Edit**
+- Paste the following policy to make it public
+
 ```sh
 {
     "Version": "2012-10-17",
@@ -44,14 +47,14 @@ Click on save changes
 
 **Step 5.Goto Buckets>static-website-example>Objects>Upload>Add files**
 - Select files to upload
-
-Click on Upload
+- Click on Upload
+- Click on Exit to return back 
 
 **Step 6.Goto Buckets>static-website-example>Properties>Static website hosting>Edit**
 - Select Enable
 - In Hosting type - Select Host a static website
 - index document - index.html
-- Error document - n/a as of now
+- Error document - error.html
 
 Click on Save changes
 
