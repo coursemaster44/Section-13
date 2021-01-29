@@ -46,7 +46,7 @@ Click on Save changes
 Click on save changes
 
 **Step 5.Goto Buckets>static-website-example>Objects>Upload>Add files**
-- Select files to upload
+- Select about.html and index.html files to upload
 - Click on Upload
 - Click on Exit to return back 
 
@@ -54,7 +54,7 @@ Click on save changes
 - Select Enable
 - In Hosting type - Select Host a static website
 - index document - index.html
-- Error document - error.html
+- Error document - n/a
 
 Click on Save changes
 
@@ -83,6 +83,7 @@ Click on Create
 $ git init
 $ git remote add origin "Clone HTTPS URL"
 $ git status
+$ git add .
 $ git commit -m "first commit"
 $ git push -u origin master
 ```
@@ -122,7 +123,7 @@ Click on Next
 - Deploy provider - Amazon S3
 - Region - Asia Pacific(Mumbai)
 - Bucket - static-website-example
-- Extract file before deploy  
+- Select Extract file before deploy  
 
 Click on Next
 
@@ -153,6 +154,6 @@ $ git push
 **Step 12.Deployment is successful now goto "static-website-example" Bucket>about.html**
 - Goto Versions and see deployment files
 
-**Step 13.Refresh the website page and see the changes done**
+**Step 13.After Completion of Pipeline refresh the website page and see the recent changes**
 
 # End of lab
