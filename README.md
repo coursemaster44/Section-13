@@ -1,7 +1,7 @@
 # Section 13.
 # Deploying-Static-Website-on-S3-(with-CodePipeline)
 
-# 13.1 create-s3-static-website-lab
+# Create S3 Static Website - Lab
 
 **Step 1.Goto AWS Management Console>All Services>S3>Create Bucket**
 Provide the following details-
@@ -67,7 +67,7 @@ Click on Save changes
 # End of lab
 
 
-# 13.2 push-static-website-code-to-codecommit-lab
+# Push Static Website Code to CodeCommit - Lab
 
 **Step 1.Goto AWS Console>CodeCommit>Repositories>Create Repository**
 In repsitory settings-
@@ -93,7 +93,7 @@ $ git push -u origin master
 
 # End of lab
 
-#  13.3 cp-s3-static-website-lab
+#  Deploy Static Website with CodePipeline (on S3) - Lab
 
 **Step 1.Goto AWS Management Console>Services>Developers Tools>CodePipeline>Create Pipeline**
 
